@@ -1,0 +1,7 @@
+interface:
+  display_name: "Pharos Transaction Debugger"
+  short_description: "Debug Pharos tx status, gas, and calldata"
+  default_prompt: "Use $pharos-transaction-debugger-agent to debug this Pharos transaction hash."
+
+policy:
+  allow_implicit_invocation: true
