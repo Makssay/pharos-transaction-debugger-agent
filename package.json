@@ -1,0 +1,11 @@
+{
+  "name": "pharos-transaction-debugger-agent",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node --check ./.agents/skills/pharos-transaction-debugger-agent/scripts/debug-transaction.mjs",
+    "demo:mainnet": "node ./.agents/skills/pharos-transaction-debugger-agent/scripts/debug-transaction.mjs --tx 0xc9ea2d149157bc6bb30a16afc18f55f88fda8a80fc4da46cf5fc10c9db0daa9c --network mainnet --format console --no-color",
+    "demo:replay": "node ./.agents/skills/pharos-transaction-debugger-agent/scripts/debug-transaction.mjs --tx 0xc9ea2d149157bc6bb30a16afc18f55f88fda8a80fc4da46cf5fc10c9db0daa9c --network mainnet --replay-failed --include-block --format console --no-color"
+  }
+}
